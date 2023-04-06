@@ -1,0 +1,22 @@
+{
+  "name": "web-personal-v1",
+  "version": "1.0.0",
+  "description": "creating my personal webpage with google domains and google firebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mariovelandiac/web-personal-v1.git"
+  },
+  "author": "Mario Velandia Ciendúa <mariovelandiawork@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariovelandiac/web-personal-v1/issues"
+  },
+  "homepage": "https://github.com/mariovelandiac/web-personal-v1#readme",
+  "dependencies": {
+    "firebase": "^9.19.1"
+  }
+}
