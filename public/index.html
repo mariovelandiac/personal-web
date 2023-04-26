@@ -1,170 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clases de Música por Mario Velandia C</title>
-    <link rel="stylesheet" href="./stylebass.css" />
-  </head>
-  <body>
-    <header id="header">
-      <div id="logo">
-        <img
-          id="header-img"
-          src="https://cdn-icons-png.flaticon.com/512/1184/1184648.png?w=740&t=st=1655389091~exp=1655389691~hmac=8fd2166a6104634bec053a2d3d1bda88a4dd58b1e46061e6872d6414f2e23fdc"
-          alt="Image of a bass guitar"
-        />
-        <h1>marioVmusic</h1>
-      </div>
-      <nav id="nav-bar">
-        <ul style="list-style: none">
-          <li>
-            <a class="nav-link" href="#benefits">Beneficios</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#videocont">Ejemplos</a>
-          </li>
-          <li>
-            <a class="nav-link" href="#options">Comienza Ahora</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div id="container">
-      <div id="divform">
-        <h2>Comienza ahora tu primera clase gratis</h2>
-        <form
-          id="form"
-          action="https://www.freecodecamp.com/email-submit"
-          target="_blank"
-        >
-          <div>
-            <label for="email">
-              <input
-                id="email"
-                type="email"
-                name="email"
-                placeholder="Ingresa aquí tu correo electrónico"
-              />
-            </label>
-          </div>
-          <div>
-            <input id="submit" type="submit" value="Comienza Ahora" />
-          </div>
-        </form>
-      </div>
-      <hr />
-      <div id="subcontainer">
-        <section id="benefits">
-          <div class="benefits">
-            <img
-              class="img-benefits"
-              src="https://cdn-icons-png.flaticon.com/512/1239/1239622.png?w=740&t=st=1655391203~exp=1655391803~hmac=6f370a00a1125ecf9cc6be4c861a6030a9f1bb4b50485d437e501d6691ab707c"
-              alt="Clases de música"
-            />
-            <div>
-              <h3>Clases estructuradas y consecuentes con tus metas</h3>
-              <p>
-                Obtendrás clases de profes con mucha experiencia en el mundo de
-                la música popular y de la música académica, siempre buscando tu
-                progreso y aprendizaje según tus objetivos
-              </p>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Clarence Taylor</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
             </div>
-          </div>
-          <div class="benefits">
-            <img
-              class="img-benefits"
-              src="https://cdn-icons-png.flaticon.com/512/1250/1250673.png?w=740&t=st=1655391212~exp=1655391812~hmac=769b05abe19cf43ba5721ef926ddbb65a25b615cac29f5fdd67b8a9daf594168"
-              alt="Clases de música"
-            />
-            <div>
-              <h3>Logros garantizados</h3>
-              <p>
-                En poco tiempo empezarás a ver los resultados de nuestra única y
-                especial metodología de aprendizaje
-              </p>
-            </div>
-          </div>
-          <div class="benefits">
-            <img
-              class="img-benefits"
-              src="https://cdn-icons-png.flaticon.com/512/1240/1240129.png?w=740"
-              alt="Clases de música"
-            />
-            <div>
-              <h3>Diversión garantizada</h3>
-              <p>
-                Para aprender a tocar música no hace falta sino vivirla, y para
-                ello, ¡necesitamos divertirnos! Te ofrecemos un método que está
-                pensado para que disfrutes el aprendizaje
-              </p>
-            </div>
-          </div>
-        </section>
-        <hr />
-        <section id="videocont">
-          <iframe
-            id="video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/6astdPgn06A"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </section>
-        <hr />
-        <section id="options">
-          <div id="primerospasos" class="features">
-            <div class="feattitle">Primeros Pasos</div>
-            <h4>El Comienzo</h4>
-            <ol style="list-style: none">
-              <li>Introducción a la música</li>
-              <li>Escoge el instrumento que quieras tocar</li>
-              <li>Clases personalizadas</li>
-              <li>Introducción a la teoría musical</li>
-              <li>Las canciones que quieras aprender</li>
-              <li>Cómo escuchar música</li>
-            </ol>
-            <button type="button" class="optionbutton">¡Quiero este!</button>
-          </div>
-          <div id="osadia" class="features">
-            <div class="feattitle">Osadía</div>
-            <h4>Para Valientes</h4>
-            <ol style="list-style: none">
-              <li>Cómo sentir y pensar la música</li>
-              <li>Profundiza en tu instrumento</li>
-              <li>Clases personalizadas</li>
-              <li>Teoría musical intermedia</li>
-              <li>Lectura musical</li>
-              <li>Sentirte cómodo en tu instrumento</li>
-            </ol>
-            <button type="button" class="optionbutton">¡Quiero este!</button>
-          </div>
-          <div id="olimpo" class="features">
-            <div class="feattitle">Olimpo</div>
-            <h4>Solo Dioses</h4>
-            <ol style="list-style: none">
-              <li>Percepción estética y filósfica de la música</li>
-              <li>Convierte en un instrumentista profesional</li>
-              <li>Clases personalizadas</li>
-              <li>Teoría musical avanzada</li>
-              <li>Lectura musical para el trabajo</li>
-              <li>Cómo funciona la música</li>
-            </ol>
-            <button type="button" class="optionbutton">¡Quiero este!</button>
-          </div>
-        </section>
-      </div>
-    </div>
-    <footer>
-      <h5>
-        Academia musical marioVmusic: el mejor sitio para Aprender, Sentir y
-        Disfrutar la Música
-      </h5>
-      <p>mariovelandiac</p>
-    </footer>
-  </body>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Clarence
+                        <span class="text-primary">Taylor</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
+                        <a href="mailto:name@email.com">name@email.com</a>
+                    </div>
+                    <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Senior Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Developer</h3>
+                            <div class="subheading mb-3">Intelitec Solutions</div>
+                            <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2011 - March 2013</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Junior Web Designer</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - December 2011</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Web Design Intern</h3>
+                            <div class="subheading mb-3">Shout! Media Productions</div>
+                            <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">University of Colorado Boulder</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Computer Science - Web Development Track</div>
+                            <p>GPA: 3.23</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">James Buchanan High School</h3>
+                            <div class="subheading mb-3">Technology Magnet Program</div>
+                            <p>GPA: 3.56</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-wordpress"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mobile-First, Responsive Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Browser Testing & Debugging
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Cross Functional Teams
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Google Analytics Certified Developer
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            Mobile Web Specialist - Google Certification
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2
+                            <sup>nd</sup>
+                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            1
+                            <sup>st</sup>
+                            Place - James Buchanan High School - Hackathon 2006
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            3
+                            <sup>rd</sup>
+                            Place - James Buchanan High School - Hackathon 2005
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
