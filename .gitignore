@@ -100,8 +100,19 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+## Firebase
+.firebase
+**/.firebase
+**/.firebaserc
+**/firebase-debug.log
+firebase*
+
 # TernJS port file
 .tern-port
 
 ## Notes
 notes.txt
+
+## images
+*.png
+*.jpg
