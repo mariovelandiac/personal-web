@@ -105,10 +105,14 @@ dist
 **/.firebase
 **/.firebaserc
 **/firebase-debug.log
-firebase*
+firebase*   
 
 # TernJS port file
 .tern-port
 
 ## Notes
 notes.txt
+
+## images
+*.png
+*.jpg
